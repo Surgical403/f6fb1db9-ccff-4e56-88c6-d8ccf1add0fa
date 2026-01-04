@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚨 ATENÇÃO: O Método Proibido que Derrete Gordura em 21 Dias!</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #ff416c, #ff4b2b);
+            color: #fff;
+            overflow-x: hidden;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+        .header {
+            background: rgba(0,0,0,0.8);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .header::before {
+            content: "";
+            position: absolute;
+            top: -50%; left: -50%;
+            width: 200%; height: 200%;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="35" fill="none" stroke="rgba(255,255,255,.1)" stroke-width="2"/></svg>') repeat;
+            animation: rotate 15s linear infinite;
+        }
+        @keyframes rotate { to { transform: rotate(360deg); } }
+        .header h1 { font-size: 2.8em; margin-bottom: 15px; text-shadow: 3px 3px 6px rgba(0,0,0,0.7); }
+        .warning {
+            background: #ff0000;
+            color: yellow;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.6em;
+            font-weight: bold;
+            border: 3px solid yellow;
+            border-radius: 10px;
+            margin: 20px 0;
+            animation: blink 1s infinite;
+        }
+        @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0.7; } }
+        .testimonial {
+            background: rgba(255,255,255,0.9);
+            color: #333;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 5px solid #ff0000;
+            border-radius: 10px;
+        }
+        .countdown {
+            text-align: center;
+            font-size: 2em;
+            color: yellow;
+            margin: 20px 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .benefits {
+            background: rgba(0,0,0,0.6);
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+        .benefits ul {
+            list-style: none;
+        }
+        .benefits li {
+            padding: 10px 0;
+            font-size: 1.3em;
+        }
+        .benefits li:before {
+            content: "✅ ";
+            font-size: 1.5em;
+        }
+        .cta-button {
+            display: block;
+            width: 100%;
+            max-width: 500px;
+            margin: 30px auto;
+            padding: 25px;
+            background: linear-gradient(45deg, #ff0000, #ff6600);
+            color: white;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            transition: all 0.3s;
+            animation: shake 0.5s infinite;
+        }
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+        .cta-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+        }
+        .price-section {
+            text-align: center;
+            margin: 30px 0;
+            background: rgba(0,0,0,0.7);
+            padding: 20px;
+            border-radius: 15px;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: #ccc;
+            font-size: 1.5em;
+        }
+        .new-price {
+            color: #00ff00;
+            font-size: 3em;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚨 ATENÇÃO: O Método Proibido que Derrete Gordura em 21 Dias!</h1>
+            <p style="font-size: 1.3em; margin-top: 15px;">Médicos estão EM PÂNICO com esta descoberta!</p>
+        </div>
+        
+        <div class="warning">
+             ⚠️ LEIA ISSO AGORA MESMO ANTES QUE APAGUEM!  ⚠️
+        </div>
+        
+        <div style="text-align: center; font-size: 1.3em; margin: 20px 0;">
+            <p><strong>❌ Cansado de dietas que não funcionam?</strong></p>
+            <p><strong>❌ Exaustivo de fazer exercícios sem resultados?</strong></p>
+            <p><strong>❌ Desperdiçando dinheiro com produtos inúteis?</strong></p>
+        </div>
+        
+        <div class="testimonial">
+            <h3>😱 "Perdi 23kg em 21 dias sem mudar minha alimentação!"</h3>
+            <p><em>"Eu não acreditava até experimentar. Em apenas 3 semanas, minha vida mudou completamente. Meu marido nem me reconheceu! Este método é REVOLUCIONÁRIO!"</em></p>
+            <p><strong>- Maria, 42 anos (resultados comprovados)</strong></p>
+        </div>
+        
+        <div class="countdown">
+              FALTAM APENAS <span id="timer">15:42</span> MINUTOS PARA O DESCONTO EXPLODIR!
+        </div>
+        
+        <div class="benefits">
+            <h2 style="text-align: center; margin-bottom: 20px;">🎯 O QUE VOCÊ VAI DESCOBRIR:</h2>
+            <ul>
+                <li>O segredo de 30 segundos que acelera a queima de gordura em 573%</li>
+                <li>Por que comer mais pode te fazer emagrecer mais rápido</li>
+                <li>O ingrediente proibido que farmácias não querem que você saiba</li>
+                <li>Como dormir 30 minutos a mais queima gordura enquanto você sonha</li>
+                <li>A técnica de respiração que derrete gordura localizada</li>
+                <li>Por que jejum intermitente está TE ENGORDANDO (e o que fazer instead)</li>
+            </ul>
+        </div>
+        
+        <div class="price-section">
+            <p class="old-price">De: R$ 497,00</p>
+            <p style="font-size: 1.2em;">Por apenas:</p>
+            <p class="new-price">R$ 47,00</p>
+            <p style="color: yellow; font-size: 1.3em;">⏳ OU 12x de R$ 4,91 no cartão!</p>
+        </div>
+        
+        <a href="#" class="cta-button">
+             🔥 QUERO EMAGRECER AGORA MESMO!  🔥
+        </a>
+        
+        <div style="text-align: center; margin: 20px 0;">
+            <p style="color: yellow; font-size: 1.2em;">
+                 ⚡ Acesso Imediato - Comece em 2 minutos!<br>
+                 📱 Funciona no celular, tablet ou computador<br>
+                 🔒 Compra 100% segura e discreta
+            </p>
+        </div>
+        
+        <div class="warning">
+             🚨  ÚLTIMA CHANCE! APENAS 7 VAGAS RESTANTES!  🚨
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2026 – Todos os direitos reservados. Este material é protegido por direitos autorais.</p>
+    </footer>
+    
+    <script>
+        // Countdown timer
+        let timeLeft = 15 * 60 + 42;
+        const timerElement = document.getElementById('timer');
+        
+        setInterval(() => {
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60;
+            timerElement.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+            if (timeLeft > 0) timeLeft--;
+        }, 1000);
+        
+        // Popup when trying to leave
+        window.addEventListener('beforeunload', (e) => {
+            e.preventDefault();
+            e.returnValue = '';
+        });
+    </script>
+</body>
+</html>
